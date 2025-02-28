@@ -1,4 +1,4 @@
-Aplicaçãp desktop para organização de arquivos, desenvolvido em Python.
+Aplicação desktop para organização de arquivos, desenvolvido em Python.
 
 Como usar:
 
