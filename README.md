@@ -1,4 +1,4 @@
-# Organizador de Arquivos
+# FileOrg - Organizador de Arquivos
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
