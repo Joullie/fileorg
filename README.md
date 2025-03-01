@@ -27,8 +27,8 @@ Este projeto é um organizador de arquivos automatizado desenvolvido em Python c
 ## 🔧 Como Executar
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/organizador-arquivos.git
-   cd organizador-arquivos
+   git clone https://github.com/Joullie/fileorg.git
+   cd fileorg
    ```
 2. **Instale as dependências (opcional, caso esteja usando um ambiente virtual):**
    ```bash
@@ -36,7 +36,7 @@ Este projeto é um organizador de arquivos automatizado desenvolvido em Python c
    ```
 3. **Execute o programa:**
    ```bash
-   python organizador.py
+   python fileorg.py
    ```
 
 ## 🏗️ Como Criar o Executável
@@ -48,7 +48,7 @@ Se desejar criar um **.exe** para Windows:
    ```
 2. **Gere o executável:**
    ```bash
-   pyinstaller --onefile --windowed organizador.py
+   pyinstaller --onefile --windowed fileorg.py
    ```
 3. **O arquivo `.exe` estará na pasta `dist/`.**
 
