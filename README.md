@@ -53,7 +53,7 @@ Se desejar criar um **.exe** para Windows:
 3. **O arquivo `.exe` estará na pasta `dist/`.**
 
 ## 📸 Captura de Tela
-![Screenshot do programa](screenshot.png)
+Pendente.
 
 ## 📜 Licença
 Este projeto está sob a **licença MIT**. Sinta-se livre para modificar e distribuir!
