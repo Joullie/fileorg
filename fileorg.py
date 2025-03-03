@@ -56,7 +56,7 @@ def organizar_arquivos():
                         log_text.insert(tk.END, f"Movido: {item} → {categoria}\n")
                     except Exception as e:
                         log_text.insert(tk.END, f"Erro ao mover arquivo {item}: {str(e)}\n")
-    
+
     messagebox.showinfo("Concluído", "Arquivos organizados com sucesso!")
 
 # Funções para escolher pastas
