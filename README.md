@@ -1,71 +1,64 @@
-# FileOrg - Organizador de Arquivos
+# FileOrg - File Organizer
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 
-Este projeto é um organizador de arquivos automatizado desenvolvido em Python com interface gráfica utilizando Tkinter. Ele permite selecionar uma pasta de origem e uma pasta de destino, categorizando automaticamente os arquivos com base em suas extensões.
+This project is an automated file organizer developed in Python with a graphical user interface using Tkinter. It allows you to select a source folder and a destination folder, automatically categorizing files based on their extensions.
 
-## 📂 Funcionalidades
-- **Interface gráfica amigável** usando Tkinter
-- **Organização automática de arquivos** em categorias:
-  - 📷 Imagens
-  - 🎥 Vídeos
-  - 🎵 Áudio
-  - 📄 Documentos
-  - 📦 Compactados
-  - ⚙️ Executáveis
-  - 🖥️ Arquivos 3D
-- **Movimentação de pastas** para uma categoria específica
-- **Registro de logs** em tempo real na interface
+## Features
+- **User-friendly graphical interface** using Tkinter
+- **Automatic file organization** into categories:
+  - 📷 Images
+  - 🎥 Videos
+  - 🎵 Audio
+  - 📄 Documents
+  - 📦 Compressed Files
+  - ⚙️ Executables
+  - 🖥️ 3D Files
+- **Folder movement** to a specific category
+- **Real-time logging** displayed in the interface
 
-## 🛠️ Tecnologias Utilizadas
-- 🐍 **Python 3**
-- 🖼️ **Tkinter** (GUI)
-- 📂 `shutil` (movimentação de arquivos)
-- 📁 `os` (manipulação de diretórios)
+##  Technologies Used
+-  **Python 3**
+-  **Tkinter** (GUI)
+-  `shutil` (file movement)
+-  `os` (directory manipulation)
 
-## 🔧 Como Executar
-1. **Clone o repositório:**
+##  How to Run
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Joullie/fileorg.git
    cd fileorg
-   ```
-2. **Instale as dependências (opcional, caso esteja usando um ambiente virtual):**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Execute o programa:**
-   ```bash
-   python fileorg.py
-   ```
+## Install dependencies (optional, if using a virtual environment):
 
-## 🏗️ Como Criar o Executável
-Se desejar criar um **.exe** para Windows:
+pip install -r requirements.txt
 
-1. **Instale o PyInstaller:**
-   ```bash
-   pip install pyinstaller
-   ```
-2. **Gere o executável:**
-   ```bash
-   pyinstaller --onefile --windowed fileorg.py
-   ```
-3. **O arquivo `.exe` estará na pasta `dist/`.**
+Run the program:
 
-## 📸 Captura de Tela
-Pendente.
+python fileorg.py
 
-## 📜 Licença
-Este projeto está sob a **licença MIT**. Sinta-se livre para modificar e distribuir!
+## How to Create an Executable
 
-## 🤝 Contribuições
-Contribuições são bem-vindas! Para contribuir:
-1. **Fork** o repositório
-2. **Crie um branch** (`git checkout -b feature-nome`)
-3. **Faça suas alterações** e commit (`git commit -m "Descrição"`)
-4. **Envie para o GitHub** (`git push origin feature-nome`)
-5. **Abra um Pull Request 🚀**
+If you wish to create a .exe for Windows:
 
----
-🔗 **Contato:** Se tiver dúvidas ou sugestões, abra uma **issue** ou me encontre em [seu perfil no GitHub](https://github.com/seu-usuario).
+## Install PyInstaller:
 
+pip install pyinstaller
+
+## Generate the executable:
+
+pyinstaller --onefile --windowed fileorg.py
+
+The .exe file will be located in the dist/ folder.
+
+## License
+This project is licensed under the MIT License. Feel free to modify and distribute!
+
+## Contributions
+Contributions are welcome! To contribute:
+
+1. **Fork** the repository
+2. **Create a branch** (`git checkout -b feature-name`)
+3. **Make your changes** and commit (`git commit -m "Description"`)
+4. **Push to GitHub** (`git push origin feature-name`)
+5. **Open a Pull Request** 🚀
